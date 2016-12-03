@@ -1,0 +1,145 @@
+body {
+  background: #eeeeee;
+  font-size: 16px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
+}
+
+a {
+  color: crimson;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+
+/* Layout
+------------------------------------------*/
+
+header,
+.container,
+footer {
+  margin: 0 auto;
+  width: 88%;
+  max-width: 1080px;
+}
+
+.wrapper {
+  padding: 1em 0;
+  background: #ffffff;
+}
+
+/* Filters
+------------------------------------------*/
+
+.grayscale {
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+  transition:all 1s ease-in-out;
+}
+
+.grayscale:hover {
+  -webkit-filter:grayscale(0);
+  filter:grayscale(0);
+}
+
+.blur{
+  -webkit-filter:blur(3px);
+  filter:blur(3px);
+  transition:all 1s ease-in-out;
+}
+
+.blur:hover{
+  -webkit-filter:blur(0);
+  filter:blur(0);
+}
+
+.sepia{
+  -webkit-filter:sepia(100%);
+  filter:sepia(100%);
+  transition:all 1s ease-in-out;
+}
+
+.sepia:hover{
+  -webkit-filter:sepia(0);
+  filter:sepia(0);
+}
+
+.hue-rotate{
+  -webkit-filter:hue-rotate(85deg);
+  filter:hue-rotate(85deg);
+  transition:all 1s ease-in-out;
+}
+
+.hue-rotate:hover{
+  -webkit-filter:hue-rotate(0);
+  filter:hue-rotate(0);
+}
+
+.opacity{
+  -webkit-filter:opacity(.2);
+  filter:opacity(.2);
+  transition:all 1s ease-in-out;
+}
+
+.opacity:hover{
+  -webkit-filter:opacity(100%);
+  filter:opacity(100%);
+}
+
+.brightness{
+  -webkit-filter:brightness(5);
+  filter:brightness(5);
+  transition:all 1s ease-in-out;
+}
+
+.brightness:hover{
+  -webkit-filter:brightness(1);
+  filter:brightness(1);
+}
+
+.drop-shadow{
+   -webkit-filter:drop-shadow(16px 16px 10px rgba(0,0,0,0.9));
+  filter:drop-shadow (16px 16px 10px rgba(0,0,0,0.9));
+  transition:all 1s ease-in-out;
+}
+
+.drop-shadow:hover{
+   -webkit-filter:drop-shadow(0 0 0 rgba(0,0,0,0.9));
+  filter:drop-shadow (0 0 0 rgba(0,0,0,0.9));
+}
+
+.contrast{
+   -webkit-filter:contrast(150%);
+  filter:contrast(150%);
+  transition:all 1s ease-in-out;
+}
+
+.contrast:hover{
+   -webkit-filter:contrast(10%);
+  filter:contrast(10%);
+}
+
+.invert{
+   -webkit-filter:invert(75%);
+  filter:invert(75%);
+  transition:all 1s ease-in-out;
+}
+
+.invert:hover{
+   -webkit-filter:invert(0);
+  filter:invert(0);
+}
+
+.saturate{
+   -webkit-filter:saturate(150%);
+  filter:saturate(150%);
+  transition:all 1s ease-in-out;
+}
+
+.saturate:hover{
+   -webkit-filter:saturate(5%);
+  filter:saturate(5%);
+}
